@@ -170,7 +170,6 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\quad.cpp" />
     <ClCompile Include="src\shader.cpp" />
-    <ClCompile Include="vendor\ImGuiFileDialog\ImGuiFileDialog.cpp" />
     <ClCompile Include="vendor\imgui\imgui.cpp" />
     <ClCompile Include="vendor\imgui\imgui_demo.cpp" />
     <ClCompile Include="vendor\imgui\imgui_draw.cpp" />
@@ -178,6 +177,7 @@
     <ClCompile Include="vendor\imgui\imgui_impl_opengl3.cpp" />
     <ClCompile Include="vendor\imgui\imgui_tables.cpp" />
     <ClCompile Include="vendor\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="vendor\imgui_dialog\ImGuiFileDialog.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\application.h" />
@@ -188,8 +188,6 @@
     <ClInclude Include="src\shader.h" />
     <ClInclude Include="vendor\ctpl\ctpl.h" />
     <ClInclude Include="vendor\ctpl\ctpl_stl.h" />
-    <ClInclude Include="vendor\ImGuiFileDialog\ImGuiFileDialog.h" />
-    <ClInclude Include="vendor\ImGuiFileDialog\ImGuiFileDialogConfig.h" />
     <ClInclude Include="vendor\imgui\imconfig.h" />
     <ClInclude Include="vendor\imgui\imgui.h" />
     <ClInclude Include="vendor\imgui\imgui_impl_glfw.h" />
